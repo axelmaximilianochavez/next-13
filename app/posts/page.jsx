@@ -1,5 +1,9 @@
-export default function PostPage () {
+import { ListOfPosts } from './ListOfPosts.jsx'
+
+export default async function PostPage () {
   return (
-    <p>Post</p>
+    <section>
+      <ListOfPosts />
+    </section>
   )
 }
